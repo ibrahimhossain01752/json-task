@@ -1,18 +1,34 @@
-import React, { useEffect, useState } from 'react';
-import './Paint.css';
+import React from 'react';
 
-const Paint = () => {
-    const [paint, setPaint] = useState([]);
-    useEffect(() => {
-        fetch('artist.json')
-        .then(res => res.json())
-        .then(data => setPaint(data))
-    },[])
+const Paint = ({paint}) => {
+    const {dis,img1,name,dis1,dis2,dis3,img2,img3} = paint;
     return (
-        <div>
-            <h1>Summer Art Camp! 5 Days of Artists and Painting Monet, <span class="first-span">Van Gosh, Matisse, & More</span></h1>
-            <p>Multi-Day Course a<span>&#63;</span></p>
-        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      {/* <img src="..." class="card-img-top" alt="..."> */}
+      <div class="card-body">
+        <h5 class="card-title">{dis}</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+     
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src={img2} class="card-img-top" alt="..."/>
+      
+     
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src={img3} class="card-img-top" alt="..."/>
+      
+      
+    </div>
+  </div>
+</div>
     );
 };
 
