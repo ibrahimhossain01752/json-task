@@ -1,11 +1,12 @@
 // import logo from './logo.svg';
 import './App.css';
-import Paint from './Paint/Paint';
+import Paints from './Paint/Paints';
+// import Paint from './Paint/Paint';
 
 function App() {
   return (
     <div className="App">
-     <Paint></Paint>
+     <Paints></Paints>
     </div>
   );
 }
