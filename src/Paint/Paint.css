@@ -14,12 +14,13 @@
     margin-right: 10px;
 }
 .img2{
-    width:265px;
+    width:280px;
     height:375px;
 }
 
 .name{
     margin-bottom: 35px;
+    color:blue;
 }
 .section{
     display:flex;
@@ -31,10 +32,12 @@
 .star-para{
     margin-right: 135px;
     margin-top: -20px;
+    color:gray;
 }
 .star-para1{
     margin-right: 205px;
     margin-top: -20px;
+    color:gray;
 }
 .dis3{
     margin-right:265px;
@@ -57,9 +60,9 @@
 }
 .share{
     margin-left:30px;  
+    color:blue;
 }
 .love-one{
-    
     color:blue;
-    
+   
 }
