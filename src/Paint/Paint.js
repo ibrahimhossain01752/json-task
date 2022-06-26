@@ -27,16 +27,16 @@ const Paint = ({paint}) => {
     </div>
   </div>
   <div class="col-md-3">
-    <div class="card h-100 w-100">
-      <img src={img2} class="card-img-top " alt="..."/>
+    <div class="card">
+      <img src={img2} class="card-img-top img2" alt="..."/>
       
      
     </div>
   </div>
   <div class="col-md-3">
-    <div class="card h-25 w-50">
-      <img src={img3} class="card-img-top" alt="..."/>
-      <img src={img4} class="card-img-top mt-2" alt="..."/>
+    <div class=" ">
+      <img src={img3} class="card-img-top img3" alt="..."/>
+      <img src={img4} class="card-img-top mt-2 img3" alt="..."/>
       
     </div>
   </div>
