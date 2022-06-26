@@ -64,5 +64,47 @@
 }
 .love-one{
     color:blue;
-   
 }
+.span-ten{
+    display:block;
+}
+@media only screen and (max-width: 576px) {
+    
+   .text-start{
+        margin-inline-start: -10px;
+        font-size:11px;
+       
+    }
+    
+    .img2{
+        width: 100%;
+    }
+    .section{
+        margin-inline-start: 10px;
+    }
+    .star-para{
+        margin-inline-start:-190px;
+        font-size:10px;
+        /* display: inline; */
+        display:block;
+        margin-right:-40px;
+    }
+    .star-para1{
+        margin-right:5px;
+        font-size:10px;
+    }
+    .button{
+        width:50%;
+        font-size:10px;
+        padding:5px;
+    }
+    .para-last{
+        font-size:10px;
+    }
+    .dis3{
+        width:100%;
+        margin-left:-85px;
+    }
+   
+    
+  }

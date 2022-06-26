@@ -5,3 +5,17 @@
 .para-one{
     color:gray
 }
+
+@media only screen and (max-width: 576px) {
+    .mob-one {
+      margin-right:15px;
+    }
+    .first-span{
+        display: inline;
+        margin-right: 25px;
+    }
+    .para-one{
+        display: inline;
+        margin-right:200px;
+    }
+  }
