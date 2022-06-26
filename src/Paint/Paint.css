@@ -85,8 +85,7 @@
     .star-para{
         margin-inline-start:-190px;
         font-size:10px;
-        /* display: inline; */
-        display:block;
+       display:block;
         margin-right:-40px;
     }
     .star-para1{
