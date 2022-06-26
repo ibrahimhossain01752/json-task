@@ -12,7 +12,7 @@ const Paints = () => {
     return (
         <div >
         <h1>Summer Art Camp! 5 Days of Artists and Painting Monet, <span class="first-span">Van Gosh, Matisse, & More</span></h1>
-        <p>Multi-Day Course a<span>&#63;</span></p>
+        <p class="para-one">Multi-Day Course a <i class="bi bi-question-circle"></i></p>
         <div>
             {
                 paints.map(paint => <Paint

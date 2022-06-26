@@ -1,0 +1,60 @@
+.span-two, .span-three, .span-four{
+    display: block;
+}
+.para-one{
+    margin-right:854px;
+}
+.text-start{
+    margin-left:35px;
+}
+.images-1{
+    width:40px;
+    height:30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.name{
+    margin-bottom: 35px;
+}
+.section{
+    display:flex;
+    margin-left: 50px;
+}
+.star-one{
+    color:gold;
+}
+.star-para{
+    margin-right: 135px;
+    margin-top: -20px;
+}
+.star-para1{
+    margin-right: 205px;
+    margin-top: -20px;
+}
+.dis3{
+    margin-right:265px;
+}
+.para-last{
+    margin-right:122px;
+}
+.button{
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+.love{
+    margin-left:20px;
+    color:blue;
+}
+.lov{
+    color: blue;
+}
+.share{
+    margin-left:30px;  
+}
+.love-one{
+    
+    color:blue;
+    
+}
